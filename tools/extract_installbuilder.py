@@ -10,7 +10,8 @@ import sys
 import lzma
 
 PAYLOAD_PATH = "/tmp/ezdrummer_inspect/EZdrummer-3.1.1-osx-installer.app/Contents/Resources/installbuilder"
-SANDBOX_DIR = os.path.expanduser("/Users/nicob/.gemini/antigravity-ide/scratch/macos-audio-installer-audit/sandbox")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SANDBOX_DIR = os.path.join(BASE_DIR, "sandbox")
 TARGET_SIZE = 43634288  # Tamaño exacto declarado en la cabecera Fat Mach-O (43.6 MB)
 
 def reconstruct_binary():
