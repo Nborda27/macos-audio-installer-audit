@@ -1,0 +1,42 @@
+{
+  "analyzed_samples": [
+    {
+      "id": "SAMPLE-001",
+      "target_name": "Logic Pro v11.0.1.dmg",
+      "size_bytes": 1189600320,
+      "sha256": "8588439d0c251a22893259371eb74fa815e501abf9d072de99cd3815ed1b542d",
+      "md5": "8350edaaa7a8ba9df59c6d6b81f4297b",
+      "format": "UDZO (zlib compressed)",
+      "codesign_status": "unsigned",
+      "quarantine_agent": "Safari",
+      "risk_level": "HIGH",
+      "analysis_report": "reports/01-logic-pro-v11.0.1.md"
+    },
+    {
+      "id": "SAMPLE-002",
+      "target_name": "Toontrack EZdrummer v3.1.1.dmg",
+      "size_bytes": 768606208,
+      "sha256": "6c74d53f20f1e4013e1270ca84c19d48ea55458899ca435d6be55045bcc8408b",
+      "md5": "19a4ef0aef3f7b44ae1737380e5fb05f",
+      "format": "ULFO (LZFSE / LZVN compressed)",
+      "scene_group": "Team V.R",
+      "packaging_engine": "BitRock InstallBuilder (LZMA payload)",
+      "codesign_status": "unsigned",
+      "quarantine_agent": "Safari",
+      "risk_level": "HIGH",
+      "analysis_report": "reports/02-toontrack-ezdrummer-v3.1.1.md"
+    },
+    {
+      "id": "SAMPLE-003",
+      "target_name": "Arturia Analog Lab V Pro v5.10.2.4741.dmg",
+      "size_bytes": 4939214848,
+      "sha256": "56a963386a216593ce856bc544f3f27c7ed5c4a8a47f962afd11f5c2a624b14f",
+      "md5": "293a85ea32a33001db60695f15fe6d12",
+      "format": "UDZO (zlib compressed)",
+      "codesign_status": "unsigned",
+      "quarantine_agent": "Safari",
+      "risk_level": "HIGH",
+      "analysis_report": "reports/03-arturia-analog-lab-v5.10.2.md"
+    }
+  ]
+}

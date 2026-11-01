@@ -1,0 +1,34 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Sandbox / Extraction artifacts (NEVER commit raw extracted malware/binaries)
+sandbox/
+*.dmg
+*.pkg
+*.app/
+*.vst
+*.vst3
+*.component
+*.aax
+*.dylib
+*.so
+*.bin
+*.dat
+*.iso
+*.img
+
+# Python environment
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Temporary outputs
+*.tmp
+*.log
