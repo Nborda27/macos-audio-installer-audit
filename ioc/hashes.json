@@ -21,9 +21,9 @@
       "format": "ULFO (LZFSE / LZVN compressed)",
       "scene_group": "Team V.R",
       "packaging_engine": "BitRock InstallBuilder (LZMA payload)",
-      "codesign_status": "unsigned",
+      "codesign_status": "adhoc_resigned_by_repackers",
       "quarantine_agent": "Safari",
-      "risk_level": "HIGH",
+      "risk_level": "MEDIUM_CLEAN_CRACK",
       "analysis_report": "reports/02-toontrack-ezdrummer-v3.1.1.md"
     },
     {
@@ -33,9 +33,14 @@
       "sha256": "56a963386a216593ce856bc544f3f27c7ed5c4a8a47f962afd11f5c2a624b14f",
       "md5": "293a85ea32a33001db60695f15fe6d12",
       "format": "UDZO (zlib compressed)",
-      "codesign_status": "unsigned",
-      "quarantine_agent": "Safari",
-      "risk_level": "HIGH",
+      "contains_active_malware": true,
+      "malware_family": "Atomic macOS Stealer (AMOS)",
+      "malware_payload_name": "Open Gatekeeper friendly",
+      "malware_sha256": "b32cca8b57c79409887fe4e5cdbabdf7687a993fb3f82e5f736f2b3bf058bdcc",
+      "malware_md5": "e45071579d5b58f7e05d7fefdd49f868",
+      "c2_server": "http://79.137.192.4/p2p",
+      "c2_asn": "AS216246 Aeza Group (Russia)",
+      "risk_level": "CRITICAL",
       "analysis_report": "reports/03-arturia-analog-lab-v5.10.2.md"
     }
   ]

@@ -24,7 +24,7 @@ macos-audio-installer-audit/
 │   ├── 02-toontrack-ezdrummer-v3.1.1.md
 │   └── 03-arturia-analog-lab-v5.10.2.md
 ├── tools/                  # Scripts en Python/Bash para extracción y análisis estático
-└── ioc/                    # Indicadores de Compromiso (Hashes SHA-256 / MD5)
+└── ioc/                    # Indicadores de Compromiso (Hashes SHA-256 / MD5 y C2)
     └── hashes.json
 ```
 
@@ -32,11 +32,11 @@ macos-audio-installer-audit/
 
 ## 🔬 Muestras Analizadas
 
-| Muestra | Tamaño | Hash SHA-256 | Firma | Riesgo |
+| Muestra | Tamaño | Hash SHA-256 | Estado / Diagnóstico | Nivel de Riesgo |
 | :--- | :--- | :--- | :--- | :--- |
-| **Logic Pro v11.0.1** | 1.2 GB | `8588439d0c251a22893259371eb74fa815e501abf9d072de99cd3815ed1b542d` | ❌ Sin firma | 🔴 Alto |
-| **Toontrack EZdrummer v3.1.1** | 733 MB | `6c74d53f20f1e4013e1270ca84c19d48ea55458899ca435d6be55045bcc8408b` | ❌ Sin firma | 🔴 Alto |
-| **Arturia Analog Lab V Pro** | 4.6 GB | `56a963386a216593ce856bc544f3f27c7ed5c4a8a47f962afd11f5c2a624b14f` | ❌ Sin firma | 🔴 Alto |
+| **Logic Pro v11.0.1** | 1.2 GB | `8588439d0c251a22893259371eb74fa815e501abf9d072de99cd3815ed1b542d` | Repack sin firma oficial | 🔴 Alto |
+| **Toontrack EZdrummer v3.1.1** | 733 MB | `6c74d53f20f1e4013e1270ca84c19d48ea55458899ca435d6be55045bcc8408b` | Crack técnico limpio (Team V.R) | 🟡 Medio |
+| **Arturia Analog Lab V Pro** | 4.6 GB | `56a963386a216593ce856bc544f3f27c7ed5c4a8a47f962afd11f5c2a624b14f` | **🚨 Infección activa: AMOS Stealer** (`Open Gatekeeper friendly` conecta a C2 en Rusia `79.137.192.4`) | 🚨 **CRÍTICO** |
 
 ---
 
